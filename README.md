@@ -9,7 +9,7 @@ TBD
 - [Anbile for OneView Setup](https://github.com/HewlettPackard/oneview-ansible#setup)[Anbile for OneView Setup](https://github.com/HewlettPackard/oneview-ansible#setup) and the corresponding oneview_config.json
 
 > **_NOTE:_** According to the [Control Machine Requirements section](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-machine-requirements) in the Ansible documentation, Window is not supported for Ansible.
-## Environment Setup
+## Setup and run
 It's recommended to spin up a Python virutal environment and install the Python package there, so the setup won't pollute the global space. The following commands creates and starts a *Python 2.7* virutal environment, named *ansible-env-python27*, with *virutalenv*:
 ```
 $ virtualenv --python=/usr/bin/python ansible-env-python27
